@@ -73,6 +73,10 @@ body {
     color: #757575;
 }
 
+.heder-tel:hover {
+    color: var(--accent-color);
+}
+
 /*---------------------------HERO-----------------------*/
 
 .hero {background: #2F303A;}
