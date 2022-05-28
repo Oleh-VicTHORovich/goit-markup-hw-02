@@ -1,6 +1,11 @@
+:root {
+    --accent-color: #2196F3;
+}
+
+
 
 body {
-    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #212121;
 }
 
@@ -11,6 +16,97 @@ body {
 .list {
     list-style: none;
 }
+
+/*-------------------------------HEDER----------------------------------*/
+
+.heder-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000;
+}
+
+.heder-link {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: inherit;
+}
+
+.heder-list .heder-link.current {
+    color: var(--accent-color);
+}
+
+.heder-link:hover,
+.heder-link:focus {
+    color: var(--accent-color);
+}
+
+
+
+.heder-email {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;    
+    color: #757575;
+}
+
+.heder-email:hover{
+    color: var(--accent-color);
+}
+
+.heder-tel {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+/*---------------------------HERO-----------------------*/
+
+.hero {background: #2F303A;}
+
+.hero-text {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;        
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+}
+
+.btn {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;    
+    color: white;
+    border: none; 
+    background: #2196F3;   
+}
+
+
+/*---------------------------Деятельность компании-----------------------*/
+
 
 .visually-hidden {
     position: absolute;
@@ -23,4 +119,139 @@ body {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
+}
+
+.action-title {
+    font-family: inherit;        
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;    
+    color: inherit;
+}
+
+.action-text {
+    font-family: inherit;       
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*---------------------------Секция Галерея-----------------------*/
+.galary-title {
+    font-family: inherit;        
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;    
+    color: inherit;
+}
+
+/*---------------------------Сотрудники компании-----------------------*/
+.colleagues-title {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: inherit;
+}
+
+.colleagues-title-h3 {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;    
+    color: inherit;
+}
+
+.colleagues-text {
+    font-family: inherit;   
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*---------------------------footer-----------------------*/
+
+.footer {
+    background: #2F303A;
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-address {
+    font-style: normal;
+}
+
+.footer-link {
+    font-family: inherit;       
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;  
+    color: #FFFFFF;
+}
+
+.footer-email,
+.footer-tel{
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*---------------------------Продукция компании-----------------------*/
+
+.produkts-btn {
+    font-family: inherit;    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: inherit;
+    border: none;
+}
+
+.produkts-btn:hover,
+.produkts-btn:focus {
+    color: white;
+    background: var(--accent-color);
+}
+
+.produkts-lowlist-title {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: inherit;
+}
+
+.produkts-lowlist-text {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
